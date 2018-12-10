@@ -1,5 +1,20 @@
+== Data generation ==
+
+You need POVRay installed (http://www.povray.org/), and the Vapory library (https://github.com/Zulko/vapory)
+
+You can then run generate_rooms.py
+
+After this, you need to run fix_data.m to flag the degenerate cases.
+
+
+== Network training etc ====
+
 cylinder_count_network.m
 
 Run this to train and test the first stage, the cylinder count classification.
 
-Regression_network_transfer* .m run these to do the transfer learning and estimate the position of objects/geoemtries etc.
+
+
+Regression_network_transfer* .m 
+
+run these to do the transfer learning and estimate the position of objects/geoemtries etc.
